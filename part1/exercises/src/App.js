@@ -11,7 +11,9 @@ function App() {
       <ChoresList />
       <div className="similarComponents">
         <MovieList />
-        <BookList />
+        <div style={{border: '1px solid black'}}>
+          <BookList />
+        </div>
         <HobbyLinks />
       </div>
     </div>
