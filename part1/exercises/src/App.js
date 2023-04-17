@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import MovieList from './components/MovieList.js';
+import ChoresList from './components/ChoresList.js';
+import BookList from './components/BookList.js';
+import HobbyLinks from './components/HobbyLinks.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ChoresList />
+      <div className="similarComponents">
+        <MovieList />
+        <div style={{border: '1px solid black'}}>
+          <BookList />
+        </div>
+        <HobbyLinks />
+      </div>
     </div>
   );
 }
