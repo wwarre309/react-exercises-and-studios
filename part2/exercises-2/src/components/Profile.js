@@ -9,7 +9,7 @@ function Profile()
       
       <img src={ocean.image} alt={ocean.name} className="img"/>
       <h1>{ocean.name}</h1>
-
+   
       <h3>Fun Facts:</h3>
       <ul>
          <li>{ocean.fact1}</li>
@@ -18,7 +18,8 @@ function Profile()
       </ul>
       <Button />
       </div>
-      );
+   );
+
    return(
       <ul>
          {listItem}
