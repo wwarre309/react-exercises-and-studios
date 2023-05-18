@@ -37,7 +37,11 @@
   }
 }
 
-.similarComponents {
-  display:flex;
-justify-content:space-between;
+.recipePhotoBlock {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imageUpdates {
+  object-fit: contain;
 }
