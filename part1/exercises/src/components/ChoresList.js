@@ -1,3 +1,12 @@
 export default function ChoresList () {
-   return <p>No content is here!</p>;
+   return ( 
+   <div>
+      <p>Where My Chores At?</p>
+            <ul>
+               <li>Laundry</li>
+               <li>Walk the dog</li>
+               <li>Wash the car</li>
+            </ul>
+            </div>
+   )
 }
