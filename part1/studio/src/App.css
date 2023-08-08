@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: goldenrod;
 }
 
 .App-logo {
@@ -14,9 +15,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: goldenrod;
   min-height: 100vh;
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -38,6 +39,9 @@
 }
 
 .recipePhotoBlock {
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
+  align-self: auto;
 }
+
+

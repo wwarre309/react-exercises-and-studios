@@ -1,3 +1,13 @@
 .ingredientList {
-    text-align: left;
+    text-align: center;
+    background-color: goldenrod;
+    
 }
+
+li {
+    list-style: none;
+    background-size: 100px;
+    padding: 25%, 25%;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofRsSOHZF-ZwJqR6b4KKK6a_4s1Fk5NKPXA&usqp=CAU");
+  }

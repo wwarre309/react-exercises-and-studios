@@ -1,5 +1,6 @@
-import styles from './Description.module.css';
+// import styles from './Description.module.css';
 import React from 'react';
+import "./Description.css"
 
 
 
@@ -9,8 +10,8 @@ function RecipeAuthor() {
     const authorName = "Rosie Mayes"
 
     return (
-    <div className = {styles.recipeAuthorBlock}>
-      <img src={authorPhoto} alt = "Rosie Mayes Photo" className={styles.imageUpdates} />
+    <div className = "recipeAuthorBlock">
+      <img src={authorPhoto} alt = "Rosie Mayes Photo" className="imageUpdates" />
       <div>
          <h3>{authorName}</h3>
          <a href={authorLink}>iHeart Recipes</a> 

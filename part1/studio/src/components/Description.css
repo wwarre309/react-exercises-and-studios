@@ -4,5 +4,7 @@
 }
 
 .imageUpdates {
-    object-fit: contain;
+    object-fit: fill;
+    display: grid;
+    width: 500px;
 }
