@@ -1,5 +1,14 @@
+import "./styling.css"
+
 function ClickedButton() {
-  return;
+  function handleClick() {
+    alert("You are unsaving this pin")
+  }
+  return(
+    <button id="clickedButton" onClick={handleClick}>
+      Saved
+    </button>
+  )
 }
 
 export default ClickedButton;
