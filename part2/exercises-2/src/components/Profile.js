@@ -2,7 +2,7 @@ import './styles.css';
 import Button from './Button';
 import oceans from './oceans.json';
 
-
+// APPLYING STYLING IS WHEN YOU TAKE SOMETHING FROM CSS AND ATTACH IT TO SOMETHING WITH className
 const listItems = oceans.map(ocean => 
    <div key={ocean.id} className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}>
       <img src={ocean.image} alt={ocean.name} className="img"/>
