@@ -1,0 +1,43 @@
+[
+ {
+    "Team": "76ers",
+    "Location": "Philadelphia",
+    "Logo": "https://wallpapercave.com/dwp2x/FEYunbA.jpg",
+    "Division": "Atlantic"
+ },
+ 
+ {
+    "Team": "Lakers",
+    "Location": "Los Angeles",
+    "Logo": "https://wallpapercave.com/dwp2x/wp3240412.jpg",
+    "Division": "Pacific"
+ },
+
+ {
+    "Team": "Celtics",
+    "Location": "Boston",
+    "Logo": "https://wallpapercave.com/wp/wp10819175.jpg",
+    "Division": "Atlantic"
+ },
+
+ {
+    "Team": "Cavaliers",
+    "Location": "Cleveland",
+    "Logo": "https://wallpapercave.com/wp/wp3197715.jpg",
+    "Division": "Central"
+ },
+
+ {
+    "Team": "Trailblazers",
+    "Location": "Portland",
+    "Logo": "https://wallpapercave.com/wp/wp2015336.jpg",
+    "Division": "Northwest"
+ },
+
+ {
+    "Team": "Hawks",
+    "Location": "Atlanta",
+    "Logo": "https://wallpapercave.com/wp/wp1877035.jpg",
+    "Division": "Southeast"
+ }
+]
