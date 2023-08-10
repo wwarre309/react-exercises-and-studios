@@ -1,11 +1,11 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://iheartrecipes.com";
+   let authorPhoto = "https://iheartrecipes.com/wp-content/uploads/2023/05/iheart-about.jpg";
+   let authorName = "Rosie Mayes";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Rosie Mayes" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -15,7 +15,14 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Beef Oxtail", 
+   "Flour",
+   "Worcestershire Sauce", 
+   "Kosher Salt & Black Pepper", 
+   "Vegetable Oil", 
+   "Beef Broth", 
+   "Onions", 
+   "Garlic"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -25,6 +32,9 @@ const RecipeIngredients = () => {
             <li>{ingredients[2]}</li>
             <li>{ingredients[3]}</li>
             <li>{ingredients[4]}</li>
+            <li>{ingredients[5]}</li>
+            <li>{ingredients[6]}</li>
+            <li>{ingredients[7]}</li>
          </ul>
       </div>
    );
@@ -47,7 +57,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://iheartrecipes.com/wp-content/uploads/2016/07/IMG_8742_wm-1536x1023.jpg" alt="Smothered Oxtail" className="imageUpdates"/>
    );
 }
 
