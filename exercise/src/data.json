@@ -1,4 +1,5 @@
-[
+{
+    "projects":[
  {
     "Team": "76ers",
     "Location": "Philadelphia",
@@ -41,3 +42,4 @@
     "Division": "Southeast"
  }
 ]
+}

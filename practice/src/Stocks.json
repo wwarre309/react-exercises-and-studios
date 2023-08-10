@@ -1,0 +1,31 @@
+[
+    {
+        "Company": "Apple",
+        "Ticker": "AAPL",
+        "Price": "$179"
+    },
+
+    {
+        "Company": "Tesla",
+        "Ticker": "TSLA",
+        "Price": "$246"
+    },
+
+    {
+        "Company": "T-Mobile",
+        "Ticker": "TMUS",
+        "Price": "$138"
+    },
+
+    {
+        "Company": "Comcast",
+        "Ticker": "CMCSA",
+        "Price": "$46"
+    },
+
+    {
+        "Company": "Nio",
+        "Ticker": "NIO",
+        "Price": "$13"
+    }
+]
