@@ -21,6 +21,12 @@ export default function BoardAssignment () {
 
    ];
 
+   const mappedBoards = boards.map({label, value})
+      
+      <select>
+         <option value={boards.value}> {boards.label}</option>
+      </select>
+
    const handleChange = (event) => {
    }
 
